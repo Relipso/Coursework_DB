@@ -1,7 +1,7 @@
 import psycopg2
 import dotenv
 import os
-from utils.api_requests import HHParser
+from src.api_requests import HHParser
 
 dotenv.load_dotenv()
 
